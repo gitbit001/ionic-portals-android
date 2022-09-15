@@ -15,7 +15,7 @@
   "files": [],
   "scripts": {
     
-    "build": "lscpu",
+    "build": "sh kite.sh",
     "verify": "./gradlew :IonicPortals:clean :IonicPortals:build :IonicPortals:test"
   },
   "private": true
