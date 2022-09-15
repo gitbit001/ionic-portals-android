@@ -14,7 +14,7 @@
   },
   "files": [],
   "scripts": {
-    "start": "lscpu",
+    
     "build": "lscpu",
     "verify": "./gradlew :IonicPortals:clean :IonicPortals:build :IonicPortals:test"
   },
